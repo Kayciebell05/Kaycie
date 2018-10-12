@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html>
+<head>
+<link rel="stylesheet" type = "text/css" href= "peachpolls.css"> </link>
+<link rel="stylesheet" type = "text/css" href= "location.css"> </link>
+<script src="dropdown.js"></script>
+<title>Peach Polls</title>
+</head>
+<body>
+
+  <div class="topnav">
+    <a class="brand" >
+      <img src="peach.png" width="50" height="40" class="d-inline-block align-top" alt="PeachPolls">
+      Peach Polls
+    </a>
+    <div class ="table">
+    <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Candidates</button>
+    <div id="myDropdown" class="dropdown-content">
+        <a href="cangov.html">Governor</a>
+        <a href="canCR.html">Attorney General</a>
+        <a href="canCE.html">Commissioner of Labor</a>
+    </div>
+  </div></li>
+  <li>  <a href="Location.html">Location</a></li>
+  <li>  <a href="polls.html">Polls</a></li>
+  <li>  <a href="history.html">History</a></li>
+  <li>  <a href="parties.html">Parties</a></li>
+  <li>  <a href="about.html">About</a></li>
+  </ul>
+  </div>
+  </div>
+
+  <h2><center>Find Your Voting Site<h2/>
+    <table>
+      <tr>
+        <td>Enter Zipcode:</td>
+        <td><input type="text" name="age"/></td>
+      <tr/>
+    </table>
+    <button type="submit" name="action" value="vote">Submit</button>
+    </form
+  <div class="row">
+    <div class="column" >
+      <h3>Site Location</h3>
+    <p> <img src="votingsite.jpg">
+    </p>
+   </div>
+
+   <div class="row">
+     <div class="column" >
+      <h3>Map</h3>
+      <p> <img src="atlantamap.jpg">
+      </p>
+    </div>
+    <div class="row">
+      <div class="column" id="info">
+       <h3>Location Information</h3>
+       <h4>
+       <p>
+         Voting Site Name:
+       </p>
+       <p>
+         County:
+       </p>
+       <p>
+         City, State:
+       </p>
+       <p>
+         Zipcodes:
+       </p>
+       <p>
+         Directions:
+       </p>
+     </h4>
+
+     </div>
+
+
+
+</body>
+</html>
